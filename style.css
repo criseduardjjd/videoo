@@ -1,0 +1,32 @@
+body {
+    background-color: #f5a6b8; /* Fondo rosado más claro */
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .mensaje {
+    text-align: center;
+    padding: 20px;
+    color: #fff; /* Texto blanco */
+    font-size: 24px;
+    background-color: #f55c7a; /* Fondo rosa oscuro */
+  }
+  
+  video {
+    display: block;
+    margin: 20px auto; /* Márgenes superior e inferior de 20px y centrado horizontalmente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 80%;
+    max-width: 800px; /* Limita el ancho del video */
+  }
+  
+  /* Estilos responsivos */
+  @media only screen and (max-width: 600px) {
+    /* Si el ancho de la pantalla es menor o igual a 600px */
+    video {
+      width: 100%;
+    }
+  }
+  
